@@ -2,6 +2,8 @@
 
 This project utilizes a pre-trained MobileNetV2 model to predict the skin tone of an uploaded image. The model has been fine-tuned on a custom dataset to classify skin tones into four categories: dark, light, mid_dark, and mid_light. After detecting the skin tone, the app recommends suitable lipstick shades, compact shades, blush shades, and eyeliner shades.
 
+![Alt Text](Prod_UI.gif)
+
 ## Project Structure
 
 - **skindata20 folder**: Contains images used for training the model.
@@ -80,11 +82,3 @@ streamlit run app.py
 ```
 
 The app will open in your default web browser. Upload an image and detect the skin tone to receive product recommendations.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README with additional information or formatting as needed.
